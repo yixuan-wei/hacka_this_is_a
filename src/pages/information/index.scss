@@ -1,0 +1,60 @@
+$grey: rgb(238, 238, 238);
+$black: rgb(51, 58, 63);
+
+body{
+  background-color: #EEEEEE;
+}
+
+.InputBox {
+  margin: 10px 50px 10px 0;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.InputText {
+  margin: 10px 0 10px 50px;
+  display:inline-block;
+  text-align: right;
+}
+.InputSelect {
+  margin:10px 50px 10px 0;
+  display:inline-block;
+  text-align: left;
+}
+
+.InputName{
+  margin: 50px;
+  display: inline-block;
+  text-align: left;
+}
+
+h3{
+  color:$black;
+  font-size: 3em;
+}
+
+select{
+  width:300px;
+  height: 70px;
+}
+
+h4{
+  color: grey;
+}
+
+input{
+  width:300px;
+  height:70px;
+}
+
+.Submit{
+  background-color: orange;
+  height: 150px;
+  text-align: center;
+  font-size: 3em;
+  color: #FFFFFF;
+}
+
+link{
+  text-decoration:none;
+}

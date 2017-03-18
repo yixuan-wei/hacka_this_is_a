@@ -1,0 +1,85 @@
+$green: rgb(203,249,158);
+$grey: #4D4948;
+
+
+.page1 {
+  width:100%;
+}
+p{
+	padding: 8px 10px 8px;
+}
+img{
+	vertical-align: top;
+	height:50px;
+	width:50px;
+}
+.chat0, .chat1 {
+	display: inline-block;
+	max-width: 60%;
+	position:relative;
+	border-radius:5px; /* 圆角 */
+}
+.chat1 {
+	background:#FFFFFF;
+	margin-left:20px;
+}
+.chat0 {
+	margin-right:20px;
+	background:rgb(203,249,158);
+}
+
+.chat0 .dialogarrow, .chat1 .dialogarrow {
+	position:absolute;
+	top:5px;
+	right:-16px;
+	width:0;
+	height:0;
+	font-size:0;
+	border:solid 8px;
+}
+.chat0 .dialogarrow{
+	border-color:$grey $grey $grey $green;
+}
+.chat1 .dialogarrow{
+	border-color:$grey #FFFFFF $grey $grey;
+	left:-16px;
+}
+
+.chatbox {
+	width: 100%;
+	height: 600px;
+	min-width: 400px;
+	background-color: $grey;
+	overflow:auto;
+}
+.chatbar0, .chatbar1 {
+	margin: 20px 20px 20px;
+}
+.chatbar0 {
+	vertical-align: text-top;
+	text-align: right;
+}
+.chatbar1 {
+	vertical-align: text-top;
+	text-align: left;
+}
+
+.chatbarimg0 {
+	position: absolute;
+	right:0;
+	top:0;
+	margin:10px;
+}
+.chatbarimg1 {
+	position: absolute;
+	left:0;
+	top:0;
+	margin:10px;
+}
+.chat0{
+	text-align: right;
+}
+
+.chat1{
+	text-align: left;
+}

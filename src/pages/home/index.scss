@@ -1,0 +1,49 @@
+$grey: rgb(238,238,238);
+$black: rgb(51, 58, 63);
+body {
+  margin: 0;
+  background-color: rgb(249,249,249);
+}
+
+.HomeImg {
+	display: block;
+	width: 100%;
+	height:auto;
+}
+
+.EmptyBox {
+	background-color: #ffffff;
+	margin:0;
+	padding:0;
+}
+
+.RowBox {
+	@extend .EmptyBox;
+}
+
+.Row2 {
+	display: inline-block;
+	width: 49%;
+	border: 2px solid $grey;
+	border-width:2px 1px 1px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.BoxText{
+	margin-top:5px;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.BoxIcon, .BoxText {
+	color: $black;
+}
+
+.BoxIcon {
+	height:30px;
+	width:auto;
+}
+.BoxText {
+	font-size: 0.9em;
+}

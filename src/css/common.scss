@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: rgb(249,249,249);
+}
+
+.Header {
+  padding: 10px 5px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+
+  .HeaderText{
+  	margin:0px;
+  	text-align: center;
+  }
+
+  .TopIcon{
+  	display: inline;
+  	height: 30px;
+  	width: auto;
+  }
+
+  .TopLeftIcon{
+  	@extend .TopIcon;
+  	text-align: left;
+  }
+
+  .TopRightIcon{
+  	@extend .TopIcon;
+  	text-align: right;
+  }
+
+  p {
+  	font-size: 1.5em;
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;  }
+}
+
+.Footer {
+	text-align:center;
+	p{
+		font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+	}
+}
